@@ -1,6 +1,6 @@
 import React,{useState} from 'react'
 import { Link } from 'react-router-dom'
-import { FaBars, FaTimes } from 'react-icons/fa'
+import { FaBars, FaTimes,FaGithub } from 'react-icons/fa'
 import Logo from '../assets/logo.png'
 import './NavbarStyles.css'
 const Navbar = () => {
@@ -25,6 +25,9 @@ const Navbar = () => {
                     </li>
                     <li className='nav-item'>
                         <Link to="/" className='nav-link'>Projects </Link>
+                    </li>
+                    <li className='nav-item'>
+                        <a href="https://github.com/imnrb" className='nav-link' target="_"><FaGithub></FaGithub> </a>
                     </li>
                 </ul>
                 <div className='hamburger' onClick={handleClick} >

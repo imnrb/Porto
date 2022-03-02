@@ -7,8 +7,8 @@
 :root{
   --primary:#6948ff;
   --secondary:#553bcb;
-  --darkgrey:#22262a;
-  --lightgrey:#d3d3d3;
+  --darkgrey:black;
+  --lightgrey:#000000;
   --grey:#808080;
 }
 body {
