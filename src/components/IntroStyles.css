@@ -22,6 +22,7 @@
     flex-direction: column;
     justify-content: space-between;
     color: aliceblue;
+    width: 80%;
 }
 .i-desc{
     font-family:sans-serif;
@@ -101,6 +102,7 @@
         margin-top: 10px;
         font-size: 15px;
         font-weight: 100;
+      
     }
     .i-right{
         margin-top: 10px;
@@ -112,4 +114,15 @@
 .i-img{
     top: 0;
 }
+}
+.right{
+    margin-left: 10%;
+}
+
+.image1{
+    width: 50%;
+    height: 50%; 
+    border-radius: 50%;
+    left: 20%;
+    background-color: #57EE9E;
 }

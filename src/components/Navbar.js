@@ -21,10 +21,10 @@ const Navbar = () => {
                         <Link to="/" spy={true} smooth={true} offset={50} duration={500} className='nav-link'>Home </Link>
                     </li>
                     <li className='nav-item'>
-                        <Link to="faq" spy={true} smooth={true} offset={-70} duration={500} className='nav-link'>Skills </Link>
+                        <Link to="faq" spy={true} smooth={true} offset={-80} duration={500} className='nav-link'>Skills </Link>
                     </li>
                     <li className='nav-item'>
-                        <Link to="hee"  spy={true} smooth={true} offset={-70} duration={500} className='nav-link'>Projects </Link>
+                        <Link to="hee"  spy={true} smooth={true} offset={-80} duration={500} className='nav-link'>Projects </Link>
                     </li>
                     <li className='nav-item'>
                         <a href="https://github.com/imnrb" className='nav-link' target="_"><FaGithub></FaGithub> </a>
