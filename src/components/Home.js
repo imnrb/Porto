@@ -1,6 +1,6 @@
 import React from 'react'
-import Faq from './Faq'
-import Heey from './Heey'
+import Faq from './Skills'
+import Heey from './Projects'
 
 
 import './HomeStyles.css'

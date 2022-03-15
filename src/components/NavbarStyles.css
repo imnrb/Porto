@@ -5,7 +5,6 @@ header{
     background-attachment:fixed ;
     position: fixed;
     margin-bottom: 20;
-   
 }
 header .navbar {
 max-width: 1240px;
@@ -38,12 +37,31 @@ header .logo img{
     display: flex;
     align-items: center;
     justify-self: start;
+    justify-content: space-around;
 }
-.nav-item{
-    padding: 0 1.5rem;
+.nav-item a{
+    padding: 0 1rem;
+    font-size: 1.4rem;
+    transition: 0.3s ease-in-out;
 }
+
 .nav-link{
+    cursor: pointer;
     color: #fff;
+}
+
+a :hover{
+    color:rgb(21, 221, 194) ;
+    font-size: 1.5rem;
+}
+.nav-logo a{
+    font-size: 1.4rem;
+    margin-left: 20px;
+    margin-top: 5px;
+    transition: 0.3s ease-in-out;
+}
+.nav-logo a:hover{
+    font-size: 1.5rem;
 }
 @media screen and (max-width:960px) {
     .hamburger{

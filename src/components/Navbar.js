@@ -18,15 +18,15 @@ const Navbar = () => {
             </div>
                 <ul className={click?"nav-menu active":"nav-menu"}>
                     <li className='nav-item'>
-                        <Link to="/" spy={true} smooth={true} offset={50} duration={500} className='nav-link'>Home </Link>
+                        <a href=""><Link to="i" spy={true} smooth={true} offset={50} duration={500} className='nav-link'>Home</Link></a>
                     </li>
                     <li className='nav-item'>
-                        <Link to="faq" spy={true} smooth={true} offset={-80} duration={500} className='nav-link'>Skills </Link>
+                        <a href=""><Link to="skills" spy={true} smooth={true} offset={-80} duration={500} className='nav-link'>Skills </Link></a>
                     </li>
                     <li className='nav-item'>
-                        <Link to="hee"  spy={true} smooth={true} offset={-80} duration={500} className='nav-link'>Projects </Link>
+                        <a href=""><Link to="projects"  spy={true} smooth={true} offset={-80} duration={500} className='nav-link'>Projects </Link></a>
                     </li>
-                    <li className='nav-item'>
+                    <li className='nav-logo'>
                         <a href="https://github.com/imnrb" className='nav-link' target="_"><FaGithub></FaGithub> </a>
                     </li>
                 </ul>
