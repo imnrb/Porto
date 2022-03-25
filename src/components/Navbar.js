@@ -6,7 +6,7 @@ import './NavbarStyles.css'
 const Navbar = () => {
     const[click,setClick]=useState(false);
     const handleClick=()=>setClick(!click);
-
+    const closeMenu=()=>setClick(false)
     
     return (
         <header>
@@ -18,13 +18,13 @@ const Navbar = () => {
             </div>
                 <ul className={click?"nav-menu active":"nav-menu"}>
                     <li className='nav-item'>
-                        <a href=""><Link to="i" spy={true} smooth={true} offset={50} duration={500} className='nav-link'>Home</Link></a>
+                        <a href="" onClick={closeMenu}><Link to="i" spy={true} smooth={true} offset={50} duration={500} className='nav-link' onClick={closeMenu}>Home</Link></a>
                     </li>
                     <li className='nav-item'>
-                        <a href=""><Link to="skills" spy={true} smooth={true} offset={-80} duration={500} className='nav-link'>Skills </Link></a>
+                        <a href="" onClick={closeMenu}><Link to="skills" spy={true} smooth={true} offset={-80} duration={500} className='nav-link' onClick={closeMenu}>Skills </Link></a>
                     </li>
                     <li className='nav-item'>
-                        <a href=""><Link to="projects"  spy={true} smooth={true} offset={-80} duration={500} className='nav-link'>Projects </Link></a>
+                        <a href="" ><Link to="projects"  spy={true} smooth={true} offset={-80} duration={500} className='nav-link' onClick={closeMenu}>Projects </Link></a>
                     </li>
                     <li className='nav-logo'>
                         <a href="https://github.com/imnrb" className='nav-link' target="_"><FaGithub></FaGithub> </a>
@@ -32,7 +32,6 @@ const Navbar = () => {
                 </ul>
                 <div className='hamburger' onClick={handleClick} >
                     {click?(<FaTimes size={20} style={{color:"#ffffff"}} />):(<FaBars size={20} style={{color:"#ffffff"}}/>)}
-                    
                 </div>
             </nav>
         </header >
