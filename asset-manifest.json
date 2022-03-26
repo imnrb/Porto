@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Porto/static/css/main.9c1a9085.css",
+    "main.js": "/Porto/static/js/main.69a18255.js",
+    "static/media/nitu-modified.png": "/Porto/static/media/nitu-modified.1854fa73b3fb6e32a79b.png",
+    "index.html": "/Porto/index.html",
+    "main.9c1a9085.css.map": "/Porto/static/css/main.9c1a9085.css.map",
+    "main.69a18255.js.map": "/Porto/static/js/main.69a18255.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9c1a9085.css",
+    "static/js/main.69a18255.js"
+  ]
+}
