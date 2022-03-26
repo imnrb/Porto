@@ -1,7 +1,7 @@
 import React,{useState} from 'react'
 import { Link } from 'react-scroll'
 import { FaBars, FaTimes,FaGithub } from 'react-icons/fa'
-import Logo from '../assets/logo.png'
+import Logo from '../assets/sign.png'
 import './NavbarStyles.css'
 const Navbar = () => {
     const[click,setClick]=useState(false);
