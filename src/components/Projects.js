@@ -12,11 +12,11 @@ const Projects = () => {
         <ul>
           <div className='project-div' >
             <li>Real-Time Chat Application Using Socket IO</li>
-            <a href="https://github.com/imnrb/Chit-Chat" target={"_blank"}><li>Project Link</li></a>
+            <a href="https://github.com/imnrb/Mumblein" target={"_blank"}><li>Project Link</li></a>
           </div>
           <div className='project-div'>
             <li>Live Weather App using Nodejs</li>
-            <a href="https://github.com/imnrb/Chit-Chat" target={"_blank"}><li>Project Link</li></a>
+            <a href="https://github.com/imnrb/Weather" target={"_blank"}><li>Project Link</li></a>
           </div>          
           <div className='project-div'>
             <li>Smart Irrigation System Using STM32 microcontroller</li>

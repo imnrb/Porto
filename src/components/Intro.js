@@ -1,6 +1,8 @@
 import React from 'react'
 import "./IntroStyles.css"
 import me from "../assets/nitu-modified.png"
+import agent_file from '../assets/resumeniti.pdf';
+
 const Intro = () => {
     return (
         <div className="i">
@@ -17,6 +19,12 @@ const Intro = () => {
                     <p className="i-desc">
                         My name is Nitish and I am pursuing Electronics and Telecommunication Engineering at Xavier Institute Of Engineering, Mumbai. I'm a passionate developer but more importantly I'm passionate about learning.
                     </p>
+                    <div id="button_id">
+
+                    <button className='download_btn'>
+                        <a href={agent_file} download="nitish_resume" >Download Cv</a>
+                    </button>
+                    </div>
                 </div>
        
                 <div className='right'>

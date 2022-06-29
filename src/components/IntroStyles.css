@@ -43,6 +43,29 @@
     height: 100%;
     animation: move 6s ease-in-out infinite alternate;
 }
+.download_btn{
+    margin-top: 30px;
+    height: 40px;
+    padding: 10px;
+    width: 100px;
+    background-color: #57EE9E;
+    margin:20px;
+    transition: 0.5s ease;
+    border: none;
+    border-radius: 10px;
+    
+}
+.download_btn a{
+    color: black;
+}
+#button_id :hover{
+    
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: 0.5s ease;
+
+}
 @keyframes move{
    50%{
        transform:translateY(-50px);

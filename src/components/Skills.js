@@ -22,6 +22,12 @@ const Skills = () => {
               <div class="skills c"></div>
             </div>
           </li>
+          <li>
+            JavaScript
+            <div class="container">
+              <div class="skills Javascript"></div>
+            </div>
+          </li>
 
           <li>
             React
@@ -29,30 +35,30 @@ const Skills = () => {
               <div class="skills react"></div>
             </div>
           </li>
-
-          <li>
-            Mongo
-            <div class="container">
-              <div class="skills mongo"></div>
-            </div>
-          </li>
-
-          <li>
-            Node
-            <div class="container">
-              <div class="skills node"></div>
-            </div>
-          </li>
-          <li>
-            Git
-            <div class="container">
-              <div class="skills git"></div>
-            </div>
-          </li>
           <li>
             Python
             <div class="container">
               <div class="skills python"></div>
+            </div>
+          </li>
+
+         
+          <li>
+            OOPs
+            <div class="container">
+              <div class="skills OOPs"></div>
+            </div>
+          </li>
+          <li>
+            DSA
+            <div class="container">
+              <div class="skills DSA"></div>
+            </div>
+          </li>
+          <li>
+            DBMS
+            <div class="container">
+              <div class="skills DBMS"></div>
             </div>
           </li>
         </ul>
